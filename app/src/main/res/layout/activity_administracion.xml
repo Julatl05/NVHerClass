@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/fondo"
     android:orientation="vertical"
-    tools:context=".AdminHome">
+    tools:context=".Administracion">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,31 +15,13 @@
 
         <TextView
             android:id="@+id/textView"
-            android:text="@string/Bienvenida"
+            android:text="@string/administracion"
             android:textColor="@color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:layout_marginTop="90dp"
             android:textSize="60dp"/>
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="315dp"
-        android:layout_margin="30dp"
-        android:orientation="vertical" >
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/regreso"
-            android:onClick="Regreso"
-            android:layout_marginTop="100dp"
-            android:background="@drawable/boton"
-            android:textSize="30dp"/>
     </LinearLayout>
 
 </LinearLayout>

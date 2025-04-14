@@ -7,43 +7,4 @@
     android:layout_height="match_parent"
     tools:context=".AdminHome">
 
-    <Textview
-        android:layout_width="wrap_content"
-        android:textSize="30dp"
-        android:layout_margin="15dp"
-        android:layout_height="wrap_content"
-        android:layout_gravityy="center horizontal"
-        android:text="Lista de usuarios"
-        />
-
-    <ListView
-        android:id="@+íd/lv_datospersonas"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        />
-
-    <!-- CAJAS DE TEXTO PARA BUSCAR AL USUARIO POR ID -->
-
-    <EditText
-        android:id="@+id/etMain"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="ID"
-
-        />
-
-    <EditText
-        android:id="@+id/etPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:enabled="false"
-        />
-
-    <EditText
-        android:id="@+id/etEmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:enabled="false"
-        />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

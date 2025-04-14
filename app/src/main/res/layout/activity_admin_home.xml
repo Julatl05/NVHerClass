@@ -25,6 +25,43 @@
     </LinearLayout>
 
 
+    <LinarLayout>
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <EditText
+        android:id="@+id/txtbuscar"
+        android:layout_with="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+            />
+
+
+        <EditText
+            android:id="@+id/editTextResultado1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Resultado 1"
+            android:enabled="false" />
+
+        <EditText
+            android:id="@+id/editTextResultado2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Resultado 2"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/+btnbuscar"
+            android:layout_wodth="wrap_content"
+            android:layout:height="wrap_content"
+            android:text="buscar"
+            />
+    </LinarLayout>
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="315dp"

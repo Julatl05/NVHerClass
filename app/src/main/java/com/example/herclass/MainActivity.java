@@ -47,6 +47,11 @@ public class MainActivity extends AppCompatActivity {
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (correo.getText().toString().trim().equals("admin@herclass") && contra.getText().toString().equals("1234")){
+                            Intent i = new Intent(getApplicationContext(), AdminHome.class);
+                            startActivity(i);
+                            Toast.makeText(getApplicationContext(), "Bienvenido Administrador", Toast.LENGTH_SHORT).show();
+                        }
                         if(task.isSuccessful()){
                             FirebaseUser user = nAuth.getCurrentUser();
                             Intent i = new Intent(getApplicationContext(), Home.class);
@@ -57,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
                             Toast.makeText(getApplicationContext(), "Autentificacion incorrecta",
                                     Toast.LENGTH_SHORT).show();
                         }
+
                     }
                 });
     }

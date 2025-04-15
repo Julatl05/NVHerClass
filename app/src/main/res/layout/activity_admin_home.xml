@@ -59,6 +59,18 @@
             android:layout:height="wrap_content"
             android:text="buscar"
             />
+        <Button
+            android:id="@+id/+btneliminar"
+            android:layout_wodth="wrap_content"
+            android:layout:height="wrap_content"
+            android:text="buscar"
+            />
+        <Button
+            android:id="@+id/+btnactualizar"
+            android:layout_wodth="wrap_content"
+            android:layout:height="wrap_content"
+            android:text="buscar"
+            />
     </LinarLayout>
 
 
